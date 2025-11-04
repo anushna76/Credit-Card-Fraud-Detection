@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+
+/* Optional: set default :root CSS variables here */
+:root {
+  --radius: 0.5rem;
+
+  --background: 0 0% 100%;
+  --foreground: 222.2 47.4% 11.2%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+
+  --primary: 240 100% 50%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 240 4.8% 95.9%;
+  --secondary-foreground: 240 5.9% 10%;
+
+  --muted: 240 4.8% 95.9%;
+  --muted-foreground: 240 3.8% 46.1%;
+
+  --accent: 240 4.8% 95.9%;
+  --accent-foreground: 240 5.9% 10%;
+
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 240 5.9% 90%;
+  --input: 240 5.9% 90%;
+  --ring: 240 4.9% 83.9%;
+
+  --chart-1: 210 100% 60%;
+  --chart-2: 40 100% 60%;
+  --chart-3: 120 100% 60%;
+  --chart-4: 300 100% 60%;
+  --chart-5: 0 100% 60%;
+
+  --sidebar-background: 240 5% 96%;
+  --sidebar-foreground: 240 5% 20%;
+  --sidebar-primary: 240 100% 40%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 300 100% 40%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 240 4.9% 90%;
+  --sidebar-ring: 240 4.9% 83.9%;
+}
+
+.dark {
+  --background: 222.2 47.4% 11.2%;
+  --foreground: 210 40% 98%;
+
+  --card: 222.2 47.4% 15%;
+  --card-foreground: 210 40% 98%;
+
+  --popover: 222.2 47.4% 15%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 210 100% 66%;
+  --primary-foreground: 222.2 47.4% 11.2%;
+
+  --secondary: 217.2 32.6% 17.5%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --accent: 217.2 32.6% 17.5%;
+  --accent-foreground: 210 40% 98%;
+
+  --destructive: 0 100% 60%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217.2 32.6% 17.5%;
+  --input: 217.2 32.6% 17.5%;
+  --ring: 224.3 76.3% 48%;
+
+  --sidebar-background: 222.2 47.4% 11.2%;
+  --sidebar-foreground: 210 40% 98%;
+  --sidebar-primary: 210 100% 66%;
+  --sidebar-primary-foreground: 222.2 47.4% 11.2%;
+  --sidebar-accent: 300 100% 66%;
+  --sidebar-accent-foreground: 222.2 47.4% 11.2%;
+  --sidebar-border: 217.2 32.6% 17.5%;
+  --sidebar-ring: 224.3 76.3% 48%;
+}
+
+
